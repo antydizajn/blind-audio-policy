@@ -1,0 +1,14 @@
+[build-system]
+requires = []
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "blind-audio-policy"
+version = "0.1.0"
+description = "Reproducible blind audio policy measurement harness"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+readme = "README.md"
+
+[tool.unittest]
+start-directory = "tests"

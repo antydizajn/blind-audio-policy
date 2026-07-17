@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+private/
+data/
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+*.zip
+catalog_private.json
+manifest_private*.json
+run_contract.json
+responses*.json

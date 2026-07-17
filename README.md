@@ -16,7 +16,7 @@ This repository deliberately does **not** claim that an AI feels music, has subj
 
 ## What it does not include
 
-No copyrighted commercial recordings, source URLs, artist/title mappings, genre labels, private manifests, API keys, or provider-specific routing information are published here. Bring audio you have the right to process locally; keep the identity mapping private.
+No copyrighted commercial recordings, source URLs, genre labels, private manifests, API keys, or provider-specific routing information are published here. A separate P100 artist/title register is published strictly for post-unblinding audit and must never be passed to a blind evaluator. Bring audio you have the right to process locally; keep the identity mapping out of every model-facing context.
 
 ## Fast start
 

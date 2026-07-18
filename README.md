@@ -82,6 +82,18 @@ Permitted wording:
 
 Not permitted: claims of subjective feeling, consciousness, intrinsic musical taste, source recognition, or general genre preference.
 
+## P1000x10 replication
+
+The repository now includes a scalable 1,000-item catalog builder, resumable local renderer, declared feature-selection runner, and ten-repetition report contract.
+
+- `corpus1000_builder.py` creates an anonymous 1,000-item public manifest while retaining source metadata only in a local private catalog.
+- `corpus1000_audio.py` renders local 12-second OGG clips with metadata stripping, a disk guard, retry policy, and a persistent failure ledger.
+- `feature_selection.py` executes the preregistered feature utility for ten independently shuffled repetitions.
+- `replication_1000.py` emits detailed anonymous selections and keeps failures in the denominator.
+- `P1000X10_STATUS.md` is the current public, non-audio execution record. Read its coverage line before interpreting any result.
+
+The current status artifact is intentionally marked partial until all 1,000 local clips are present. It must not be described as a completed 1,000-track replication.
+
 ## Public-release gate
 
 ```bash

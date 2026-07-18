@@ -9,7 +9,7 @@ Build or evaluate a **blind operational audio-choice protocol**. Never convert i
 - Private-only: source paths, source URLs, artist, title, genre/style, curator identity, user profile, secret tokens, provider configuration, and unblinding map.
 - Model-facing: anonymous IDs, the actual audio bytes, a frozen fingerprint, a task prompt, and the response schema.
 - Public repository: code, tests, generic protocol, fixtures that contain no real music, and no corpus audio unless every file has an explicit redistribution license.
-- `P100_SOURCE_REGISTER_POST_UNBLINDING.md` is human-readable metadata for post-unblinding audit only. It is forbidden input for every blind evaluator.
+- `P100_SOURCE_REGISTER_POST_UNBLINDING.md` and `P1000_SOURCE_REGISTER_POST_UNBLINDING.csv` are human-readable metadata for post-unblinding audit only. They are forbidden input for every blind evaluator.
 
 ## Mandatory delegated-blind-evaluation protocol
 
